@@ -6,11 +6,11 @@
         "telegram",
         "telethon",
         "telegram-bot",
-        "BrayDenXD",
+        "BrayDanXD",
         "AntiChannelBan"
     ],
-    "repository": "https://GitHub.com/BrayDenXD/AntiChannelBan",
-    "website": "https://GitHub.com/BrayDenXD",
+    "repository": "https://GitHub.com/BrayDanXD/AntiChannelBan",
+    "website": "https://GitHub.com/BrayDanXD",
     "success_url": "https://t.me/Decodesupport",
     "env": {
       "BOT_TOKEN": {
