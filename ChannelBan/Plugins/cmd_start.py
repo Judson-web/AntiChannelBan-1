@@ -10,7 +10,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Hᴇʟᴘ", url="https://t.me/DeeCodeBots"
+                        "Hᴇʟᴘ", url="https://t.me/ChannelBanADVRobot?start=help"
                     ),
                     InlineKeyboardButton(
                         "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/STMbOTsUPPORTgROUP"
