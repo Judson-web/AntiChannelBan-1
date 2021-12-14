@@ -1,24 +1,24 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-@Client.on_message(filters.command(["start", "start@ChannelBanRobot"]))
+@Client.on_message(filters.command(["start", "dark"]))
 async def start(_, message: Message):
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name} 😉️!</b>
- `Heya I'm A Anti Channel Tegram bot to delete and ban message sent by channel`""",
+        f"""<b>Hʟᴏ {message.from_user.first_name} 😉️!</b>
+ `Hᴇʏᴀ I'ᴍ Aɴ Aɴᴛɪ Cʜᴀɴɴᴇʟ Tᴇɢʀᴀᴍ Bᴏᴛ Tᴏ Dᴇʟᴇᴛᴇ Aɴᴅ Bᴀɴ Mᴇssᴀɢᴇ Sᴇɴᴅ BY Cʜᴀɴɴᴇʟ`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📢 Cʜᴀɴɴᴇʟ", url="https://t.me/DeeCodeBots"
+                        "Hᴇʟᴘ", url="https://t.me/DeeCodeBots"
                     ),
                     InlineKeyboardButton(
-                        "Sᴜᴘᴘᴏʀᴛ 👥", url="https://t.me/DeCodeSupport"
+                        "Sᴜᴘᴘᴏʀᴛ", url="https://t.me/STMbOTsUPPORTgROUP"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧑‍💻 Dᴇᴠ 🧑‍💻", url="https://t.me/DeeCodeDevs"
+                        "Bᴏᴛ Eᴅɪᴛᴏʀ", url="https://t.me/VAMPIRE_KING_NO_1"
                     )
                 ]
             ]
